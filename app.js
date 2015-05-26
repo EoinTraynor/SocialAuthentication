@@ -6,8 +6,10 @@ var mongoose = require('mongoose');
 var passport = require('passport');
 var flash    = require('connect-flash');
 
+var dbConfig = 'mongodb://localhost/test'
+
 // configuration ===============================================================
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect(dbConfig);
 
 require('./config/passport')(passport);
 
