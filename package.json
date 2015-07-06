@@ -1,6 +1,12 @@
 {
-  "name": "node-authentication",
-  "main": "server.js",
+  "name": "SocialLogin",
+  "version": "0.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EoinTraynor/SocialAuthentication.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "express": "~3.4.4",
     "ejs": "~0.8.5",
@@ -12,8 +18,5 @@
     "passport-google-oauth": "~0.1.5",
     "connect-flash": "~0.1.1",
     "bcrypt-nodejs": "latest"
-  },
-  "devDependencies": {
-    "fly": "0.0.0"
   }
 }
